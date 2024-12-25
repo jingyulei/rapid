@@ -13,7 +13,7 @@
 During the experiment, in order to recognize any driver distraction behavior that is not predefined, we design a variety of normal and abnormal driving behaviors. The normal driving behaviors include not only mechanical operations with both hands on the steering wheel but also permissible non-distracting actions such as adjusting glasses and changing posture. As for abnormal driving, we design at least ten different behaviors, as shown in the following table.
 
 <p align="center">
-  <img width="524" alt="table" src="https://github.com/user-attachments/assets/fcd6338d-ebc4-49ea-81ca-2b2603703bb9" />
+  <img src="https://github.com/user-attachments/assets/fcd6338d-ebc4-49ea-81ca-2b2603703bb9" width="524"/>
 </p>
 
 
@@ -28,11 +28,22 @@ Our original dataset is uploaded in folder **original_sktDD** whose single file 
 conda env create -f environment.yaml
 conda activate rapid
 ```
-### Train
+### Training
 ```bash
 python train_RAPID.py --config train.yaml
 ```
-### Test
+Past frame number **k** can be changed in `train.yaml` (discussion in III.A).
+### Testing
+- Testing your own training result 
+
+  Fill in `load_ckpt` in `checkpoints/sktDD/train_experiment/config.yaml` and run:
+```bash
+python test_RAPID.py --config checkpoints/sktDD/train_experiment/config.yaml
+```
+
+- Reproducing our results 
+
+  Run:
 ```bash
 python test_RAPID.py --config test.yaml
 ```
