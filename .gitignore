@@ -1,2 +1,43 @@
+# Python bytecode files
 *.pyc
+*.pyo
+*.pyd
 __pycache__/
+*.so
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# IDE or Editor directories and files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Python package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# .env files for environment variables
+.env
+.env.*
+
