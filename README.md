@@ -9,7 +9,7 @@
 - We utilize DDPM to generate possible future driver poses and determine whether the driver is distracted by clustering, which enables recognition of undefined actions.
 - In order to be put into practice, privacy protection is a problem to be solved. Based on human pose keypoints, RAPID could not only protect drivers' privacy but also support rapid inference.
 
-## sktDD Dataset
+## Our dataset: sktDD
 During the experiment, in order to recognize any driver distraction behavior that is not predefined, we design a variety of normal and abnormal driving behaviors. The normal driving behaviors include not only mechanical operations with both hands on the steering wheel but also permissible non-distracting actions such as adjusting glasses and changing posture. As for abnormal driving, we design at least ten different behaviors, as shown in the following table.
 
 <p align="center">
