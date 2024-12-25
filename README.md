@@ -51,3 +51,5 @@ python test_RAPID.py --config test.yaml
 
 ## References
 We referenced the repos below for the code.
+
+[MoCoDAD](https://github.com/aleflabo/MoCoDAD)
