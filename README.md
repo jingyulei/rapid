@@ -1,7 +1,7 @@
 # RAPID: Recognition of Any-Possible DrIver Distraction via Multi-view Pose Generation Models
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4eb99116-44dc-4c2c-89af-38660736708e" width="700"/>
+  <img src="https://github.com/user-attachments/assets/4eb99116-44dc-4c2c-89af-38660736708e" width="600"/>
 </p>
 
 ## Contributions
@@ -34,18 +34,20 @@ python train_RAPID.py --config train.yaml
 ```
 Past frame number **k** can be changed in `train.yaml` (discussion in III.A).
 ### Testing
-- Testing your own training result 
+- Testing your own training results
 
   Fill in `load_ckpt` in `checkpoints/sktDD/train_experiment/config.yaml` and run:
 ```bash
 python test_RAPID.py --config checkpoints/sktDD/train_experiment/config.yaml
 ```
 
-- Reproducing our results 
+- Reproducing our result
 
   Run:
 ```bash
 python test_RAPID.py --config test.yaml
 ```
+- You can view the result images in the directory `./pictures`.
 
-
+## References
+We referenced the repos below for the code.
