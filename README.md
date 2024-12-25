@@ -10,4 +10,9 @@
 - In order to be put into practice, privacy protection is a problem to be solved. Based on human pose keypoints, RAPID could not only protect drivers' privacy but also support rapid inference.
 
 ## sktDD Dataset
-Our original dataset
+Our original dataset is uploaded in folder **original_sktDD** whose single file includes one driver's one view. In order to reproduce our results, folder **sktDD** can be utilized directly. In our dataset, column **PersonID** means different views. The sktDD directory structure looks like:
+
+
+
+## Setup 
+
