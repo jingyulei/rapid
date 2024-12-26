@@ -16,9 +16,9 @@ During the experiment, in order to recognize any driver distraction behavior tha
   <img src="https://github.com/user-attachments/assets/fcd6338d-ebc4-49ea-81ca-2b2603703bb9" width="524"/>
 </p>
 
+Our original dataset is uploaded in folder `original_sktDD` whose single file includes one driver's one view. In order to reproduce our results, folder `sktDD` can be utilized directly. In our dataset, column **PersonID** means different views (0/1/2 means rearview mirror/passenger-side window/dashboard view). 
 
-
-Our original dataset is uploaded in folder **original_sktDD** whose single file includes one driver's one view. In order to reproduce our results, folder **sktDD** can be utilized directly. In our dataset, column **PersonID** means different views (0/1/2 means rearview mirror/passenger-side window/dashboard view). 
+Based on the assumption of unsupervised learning, our training set only contains normal driving multi-view pose keypoints, while the test set includes both normal driving and distracted driving, with the labels stored in `test_frame_mask`.
 
 
 ## Usage 
