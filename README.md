@@ -6,7 +6,9 @@
 
 ## 🧠Contributions
 -✨Traditional DMS solutions rely on post-processing procedure to improve detection ability. However, RAPID possesses a greater ability to judge with an end-to-end and frame-level prediction.
+
 -✨We utilize DDPM to generate possible future driver poses and determine whether the driver is distracted by clustering, which enables recognition of undefined actions.
+
 -✨In order to be put into practice, privacy protection is a problem to be solved. Based on human pose keypoints, RAPID could not only protect drivers' privacy but also support rapid inference.
 
 ## Our dataset: sktDD  🤳 💬 🍔 ☕
