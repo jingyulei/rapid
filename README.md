@@ -5,11 +5,11 @@
 </p>
 
 ## 🧠Contributions
--✨Traditional DMS solutions rely on post-processing procedure to improve detection ability. However, RAPID possesses a greater ability to judge with an end-to-end and frame-level prediction.
+✨Traditional DMS solutions rely on post-processing procedure to improve detection ability. However, RAPID possesses a greater ability to judge with an end-to-end and frame-level prediction.
 
--✨We utilize DDPM to generate possible future driver poses and determine whether the driver is distracted by clustering, which enables recognition of undefined actions.
+✨We utilize DDPM to generate possible future driver poses and determine whether the driver is distracted by clustering, which enables recognition of undefined actions.
 
--✨In order to be put into practice, privacy protection is a problem to be solved. Based on human pose keypoints, RAPID could not only protect drivers' privacy but also support rapid inference.
+✨In order to be put into practice, privacy protection is a problem to be solved. Based on human pose keypoints, RAPID could not only protect drivers' privacy but also support rapid inference.
 
 ## Our dataset: sktDD  🤳 💬 🍔 ☕
 During the experiment, in order to recognize any driver distraction behavior that is not predefined, we design a variety of normal and abnormal driving behaviors. The normal driving behaviors include not only mechanical operations with both hands on the steering wheel but also permissible non-distracting actions such as adjusting glasses and changing posture. As for abnormal driving, we design at least ten different behaviors, as shown in the following table.
