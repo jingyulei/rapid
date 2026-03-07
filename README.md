@@ -1,7 +1,7 @@
 # RAPID: Recognition of Any-Possible DrIver Distraction via Multi-view Pose Generation Models 🚗
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4eb99116-44dc-4c2c-89af-38660736708e" width="600"/>
+ <img width="1094" height="483" alt="截屏2026-03-08 01 51 18" src="https://github.com/user-attachments/assets/09b42ef7-f663-467e-83bc-d7d7cdbaa23f" />
 </p>
 
 ## 🧠 Contributions
@@ -51,7 +51,21 @@ python test_RAPID.py --config test.yaml
 ```
 - You can view the result images in the directory `./pictures`.
 
+
+## 🖋️ Citiation
+```
+@INPROCEEDINGS{10888832,
+  author={Lei, Jingyu and Hao, Shengyu and Wang, Gaoang and Lee, Der-Horng},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={RAPID: Recognition of Any-Possible DrIver Distraction via Multi-view Pose Generation Models}, 
+  year={2025},
+  doi={10.1109/ICASSP49660.2025.10888832}}
+```
+
 ## 📚 References
 We referenced the repos below for the code.
 
 [MoCoDAD](https://github.com/aleflabo/MoCoDAD)
+
+
+
